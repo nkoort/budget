@@ -1,0 +1,23 @@
+.headerWrapper {
+  background: grey;
+  padding: 0px 15px 5px 15px;
+  color: #fff;
+  font-family: 'Sevillana', cursive;
+  a {
+    color: #fff;
+  }
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+
+  .title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .icon {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}

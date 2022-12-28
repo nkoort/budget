@@ -1,0 +1,53 @@
+// .accordion {
+//    --bs-accordion-border-color: none;
+
+//    div {
+//       .accordion-item {
+
+//          .accordion-header {
+
+//             .accordion-button {
+//                background: rgb(58, 81, 58);
+//                color: #fff;
+//             }
+
+
+
+
+
+//             .accordion-button {
+//                padding: 0;
+
+//                &.collapsed {
+
+//                   color: #111;
+//                   padding: 0;
+//                   background: #5a6b5a;
+//                }
+//             }
+//          }
+
+
+//          .accordion-collapse {
+//             padding: 0;
+//             background: rgb(104, 124, 104);
+
+//             &.collapse {
+//                background: rgb(104, 124, 104);
+
+//                &.show {
+//                   background: rgb(104, 124, 104);
+
+
+//                   .accordion-body {
+//                      padding: 0;
+//                      border-radius: 0;
+//                      background: rgb(104, 124, 104);
+//                   }
+//                }
+//             }
+
+//          }
+//       }
+//    }
+// }

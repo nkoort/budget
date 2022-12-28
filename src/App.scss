@@ -1,0 +1,29 @@
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: Roboto;
+  // overflow-y: scroll;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+main {
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: grey;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 183, 165, 1);
+    border-radius: 20px;
+  }
+}
