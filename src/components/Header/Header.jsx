@@ -18,7 +18,6 @@ const Header = ({ }) => {
             <NavLink to={'/'}>
                <FileBarGraph />
             </NavLink>
-
          </div>
       </div>
    )
