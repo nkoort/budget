@@ -26,7 +26,6 @@ function App() {
                   {/* <LazyProfile /> */}
                </Suspense>
             } />
-
          </Route>
       </Routes>
    )
